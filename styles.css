@@ -468,7 +468,7 @@
 .text-3 ,.text-4 ,.text-5{
     position: absolute;
     font-size: 100px;
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif    ;
     padding: 20px;
     background: white;
     color: black;
@@ -506,3 +506,156 @@
 
 
 
+/* ============ RESPONSIVE LAYER ============ */
+
+/* Tablets */
+@media (max-width: 1024px) {
+
+  #locomotive,
+  #scroll,
+  #v {
+    font-size: 120px;
+  }
+
+  .orbital-show {
+    font-size: 140px;
+  }
+
+  .content {
+    width: 45%;
+    font-size: 1rem;
+  }
+
+  .points {
+    font-size: 1.2rem;
+  }
+
+  #speed-control,
+  #speed-control-1 {
+    flex-direction: column;
+  }
+
+  #speed-content {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  #speed-image,
+  #speed-image-1 {
+    width: 100%;
+    height: 60vh;
+  }
+
+  .fixed-media,
+  .fixed-content {
+    width: 100%;
+  }
+
+  .text-1, .text-2, .text-3, .text-4, .text-5 {
+    font-size: 70px;
+  }
+}
+
+
+/* Phones */
+@media (max-width: 768px) {
+
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #logo,
+  #edition {
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  #hero {
+    margin-top: 80px;
+    padding-left: 10px;
+  }
+
+  #locomotive,
+  #scroll,
+  #v {
+    font-size: 70px;
+  }
+
+  .orbital-show {
+    font-size: 90px;
+    padding-left: 10px;
+  }
+
+  .library {
+    flex-direction: column;
+  }
+
+  .content,
+  .points {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .points {
+    font-size: 1.1rem;
+  }
+
+  #speed-image,
+  #speed-image-1,
+  #speed-image-2 {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .fixed-slide {
+    height: auto;
+  }
+
+  .fixed-media {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .fixed-content {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    pointer-events: auto;
+  }
+
+  .text-1, .text-2, .text-3, .text-4, .text-5 {
+    font-size: 48px;
+  }
+
+  .speed2x,
+  .speed4x,
+  .speed6x {
+    font-size: 24px;
+  }
+}
+
+
+/* Small phones */
+@media (max-width: 480px) {
+
+  #locomotive,
+  #scroll,
+  #v {
+    font-size: 50px;
+  }
+
+  .orbital-show {
+    font-size: 60px;
+  }
+
+  .text-1, .text-2, .text-3, .text-4, .text-5 {
+    font-size: 36px;
+  }
+
+  #speed-content {
+    font-size: 16px;
+  }
+}
